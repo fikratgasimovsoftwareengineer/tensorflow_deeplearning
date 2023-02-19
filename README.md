@@ -1,5 +1,5 @@
 # TENSORFLOW AND PYTORCH CUSTOM MODELS-PYTHON3 IMPLEMENTATIONS
-###It is tutorial for Tensorflow Framework with Deep Learning Neural Network
+### It is tutorial for Tensorflow Framework with Deep Learning Neural Network
 
 - Binary Classification with Tensorflow and Pytorch
 - MultiClass Classification with Tensorflow and Pytorch
