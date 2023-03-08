@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+  tensorflow:
+    image: ttensorflow_jupyterlab_v5:custom_image_yolov5
+    container_name: /app
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+#version: 'latest
+
+#services:
+ # tensorflow:
+ # image: tensorflow/tensorflow:latest-gpu
+ # ports:
+  #  - 8888:8888
+  #volumes:
+  #  - ./notebooks:/notebooks

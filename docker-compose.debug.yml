@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  tensorflow:
+    image: tensorflow_jupyterlab_v5:custom_image_yolov5
+    container_name: /app
+    build:
+      context: . 
+      dockerfile: ./Dockerfile
